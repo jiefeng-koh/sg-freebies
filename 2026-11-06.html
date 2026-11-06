@@ -13,6 +13,7 @@ a{color:inherit}h1{font-size:26px;margin:4px 0 8px}h2{font-size:19px;margin:30px
 .plan{margin:0;padding:0;list-style:none;display:grid;gap:8px}
 .plan li{display:grid;grid-template-columns:minmax(90px,max-content) 1fr;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 14px}
 .plan b{color:var(--gold);white-space:nowrap}
+@media (max-width:520px){.plan li{grid-template-columns:1fr;gap:2px}}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
 .ph img{width:100%;max-height:340px;object-fit:contain;display:block;background:var(--tag)}
